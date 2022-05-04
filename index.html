@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>FAC Arrays</title>
+</head>
+
+<body>
+    <h1>Array Function Input</h1>
+    <div>
+        <input type="text" id="input" placeholder="please enter your numbers here">
+    </div>
+    <h2>SEPARATE YOUR TAGS WITH A COMMA</h2>
+    <div id="choice">
+        <div class="func">
+            <input type="radio" id="filter" name="function" value="filter">
+            <label for="filter">filter</label>
+        </div>
+
+        <div class="func">
+            <input type="radio" id="reduce" name="function" value="reduce">
+            <label for="reduce">reduce</label>
+        </div>
+    </div>
+    <h2>SELECT A FUNCTION YOU WOULD LIKE TO RUN</h2>
+    <div>
+        <button id="submit" class="button-8" role="button">Submit</button>
+    </div>
+    <hr>
+    <p>Result</p>
+    <textarea name="output" id="output" cols="30" rows="10">
+
+    </textarea>
+    <script src="script.js"></script>
+</body>
+
+</html>
